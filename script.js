@@ -83,7 +83,7 @@ socket.on("msg",(data)=>{
 let HandleConnection =async (message)=>{
 
     message = JSON.parse(message)
-    console.log(message.type);
+    console.log(message);
     if(message.type === "offer"){
      
       createAnswer(message.offer)
