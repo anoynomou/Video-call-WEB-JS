@@ -8,14 +8,9 @@ let PeerConnection;
 const server = {
     iceServers:[
         {
-            urls:[
-                    {
-      urls: "turn:openrelay.metered.ca:443?transport=tcp",
-      username: "openrelayproject",
-      credential: "openrelayproject",
-    }
-            ]
+          urls: 'stun:stun.l.google.com:19302'
         }
+       
     ]
 }
 let constraints = { audio: true, video:true}
