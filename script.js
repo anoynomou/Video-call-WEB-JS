@@ -8,7 +8,7 @@ let PeerConnection;
 const server = {
     iceServers:[
              {
-           urls:'stun:stun.l.google.com:19302'
+           urls:'stun:stun.callwithus.com:3478'
        },
        
        {
